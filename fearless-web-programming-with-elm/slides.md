@@ -369,6 +369,20 @@ elm-format formats Elm source code according to a standard set of rules. It make
 - Run natively on mobile
 
 ---
+
+## References
+
+- [https://guide.elm-lang.org](https://guide.elm-lang.org)
+- [https://www.elm-tutorial.org](https://www.elm-tutorial.org)
+
+## Community
+
+- [/r/elm](https://www.reddit.com/r/elm)
+- [https://groups.google.com/forum/#!forum/elm-dev](https://groups.google.com/forum/#!forum/elm-dev)
+- [https://elmlang.slack.com/](https://elmlang.slack.com/)
+- [http://stackoverflow.com/questions/tagged/elm](http://stackoverflow.com/questions/tagged/elm)
+
+---
 class: center, middle
 
 # Thank You
