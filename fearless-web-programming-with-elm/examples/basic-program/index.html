@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Todo List</title>
+    </head>
+    <link rel="stylesheet" href="tachyons.min.css">
+    <style>
+        html, body, #app {
+            height: 100%;
+        }
+        .container {
+            min-height: 100%;
+            width: 95%;
+            max-width: 500px;
+            margin-right: auto;
+            margin-left: auto;
+            box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.5 );
+        }
+        .no-outline, .no-outline:focus {
+            outline: none;
+        }
+        .todo {
+            border-width: 0;
+            border-top-width: 1px;
+            border-style: solid;
+        }
+        .todo:last-child {
+            border-bottom-width: 1px;
+        }
+        .checked {
+            position:relative;
+        }
+        .checked::after {
+            background: red;
+            content: "";
+            height: 5px;
+            left: 0;
+            margin-top: calc(0.125em / 2 * -1);
+            position: absolute;
+            right: 0;
+            top: 50%;
+        }
+    </style>
+    <body>
+        <div id="app"></div>
+        <script src="http://localhost:8000/_compile/Main.elm"></script>
+        <script>
+            const node = document.getElementById('app');
+            Elm.Main.embed(app);
+        </script>
+    </body>
+</html>
