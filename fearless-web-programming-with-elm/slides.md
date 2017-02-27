@@ -382,6 +382,10 @@ elm-format formats Elm source code according to a standard set of rules. It make
 - [https://elmlang.slack.com/](https://elmlang.slack.com/)
 - [http://stackoverflow.com/questions/tagged/elm](http://stackoverflow.com/questions/tagged/elm)
 
+## Examples
+
+[https://github.com/arrizalamin/talks/tree/gh-pages/fearless-web-programming-with-elm/examples](https://github.com/arrizalamin/talks/tree/gh-pages/fearless-web-programming-with-elm/examples)
+
 ---
 class: center, middle
 
